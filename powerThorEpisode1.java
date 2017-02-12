@@ -102,7 +102,7 @@ import java.math.*;
 
 class Player {
 
-     static void print(String p_Choice){
+     static void make(String p_Choice){
          // A single line providing the move to be made: N NE E SE S SW W or NW
             System.out.println(p_Choice);    
     }
@@ -122,7 +122,7 @@ class Player {
         while (true) {
             int remainingTurns = in.nextInt(); // The remaining amount of turns Thor can move. Do not remove this line.
 
-            print(thor.GoToward(light));
+            make(thor.GoToward(light));
 
            
         }
